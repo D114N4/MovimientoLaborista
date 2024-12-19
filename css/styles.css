@@ -23,10 +23,12 @@
     align-items: center;
     align-content: center;
     justify-content: space-around;
-    background-color: var(--background-azul1);
-    color: var(--color-amarillo);
+    color: var(--background-azul1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
+    position: fixed;
+    background-color: rgb(253, 252, 249);
+    z-index: 1;
 }
 
 .logotipo {
@@ -34,11 +36,17 @@
     margin: .4rem;
 }
 
+.enlaces {
+    text-decoration: none;
+    color: var(--background-azul1);
+    font-weight: 1rem;
+}
+
 .enlaces:hover {
-    background-color: var(--background-azul2);
     padding: 1rem .5rem;
     border-radius: .5rem;
     text-decoration: underline;
+    color: var(--color-azulCielo);
 }
 
 .afiliate {
@@ -53,7 +61,7 @@
     text-align: center;
     align-content: center;
     align-items: center;
-    color: var(--color-negro);
+    color: white;
     display: flex;
 }
 
@@ -62,7 +70,7 @@
 }
 
 .material-symbols-outlined:hover {
-    color: white;
+    color: var(--color-negro);
     margin: 0.3rem;
 }
 
@@ -72,7 +80,7 @@
     margin: .2rem .5rem;
     padding: .1rem .3rem;
     cursor: pointer;
-    color: white;
+    color: var(--color-negro);
     transition: .3s;
     font-size: .95rem;
 
@@ -80,3 +88,40 @@
 
 
 /*EMPIEZA BODY*/
+
+
+
+/* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
+.imagen1Fondo {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin:5.5rem 0rem;
+}
+
+.sombra{
+        position: absolute;
+        z-index: 0;
+        top: 25rem;
+        left: 28rem;
+        background-color: var(--background-azul2);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.9rem;
+        transition: opacity .3s;
+        opacity: 1;
+        padding:2rem 5rem;
+        color: white;
+}
+
+.botonDonaciones{
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+.botonDonaciones:hover{
+    background-color: var(--background-azul2);
+    border-color: var(--background-azul1);
+    color:var(--color-amarillo);
+}
