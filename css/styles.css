@@ -18,6 +18,7 @@
 
 /* NAVBAR */
 .nav {
+    font-weight: 400;
     width: 100%;
     display: flex;
     align-items: center;
@@ -96,32 +97,61 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    margin:5.5rem 0rem;
+    margin: 5.5rem 0rem;
 }
 
-.sombra{
-        position: absolute;
-        z-index: 0;
-        top: 25rem;
-        left: 28rem;
-        background-color: var(--background-azul2);
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        border-radius: 0.9rem;
-        transition: opacity .3s;
-        opacity: 1;
-        padding:2rem 5rem;
-        color: white;
+.sombra {
+    position: absolute;
+    z-index: 0;
+    top: 25rem;
+    left: 28rem;
+    background-color: var(--background-azul2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9rem;
+    transition: opacity .3s;
+    opacity: 1;
+    padding: 2rem 5rem;
+    color: white;
 }
 
-.botonDonaciones{
+.botonDonaciones {
     font-size: 1rem;
     border-radius: 2rem;
+    transition:1s;
 }
 
-.botonDonaciones:hover{
+.botonDonaciones:hover {
     background-color: var(--background-azul2);
     border-color: var(--background-azul1);
-    color:var(--color-amarillo);
+    color: var(--color-amarillo);
+}
+
+/* -----------------INICIA SECCION DE PREGUNTAS */
+
+.preguntaExploracion {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--background-azul1);
+    font-weight: 500;
+    transition: 1s;
+}
+
+.preguntaExploracion:hover{
+    color:var(--color-azulCielo);
+}
+
+.espaciopregunta{
+    margin: .5rem 21rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: .8rem 15rem;
+    color: var(--background-azul1);
+    font-weight: 500;
+    border-color: var(--background-azul1);
+    border-radius: 3rem;
 }
