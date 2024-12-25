@@ -245,3 +245,62 @@ a {
     padding: 2rem;
     background-color:#047cfd13;
 }
+
+/*----------------------REDES SOCIALES SECCION--------------------*/
+
+.redesSociales{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 1.4rem 2rem 1.4rem 8rem;
+}
+.facebook{
+    width:15rem;
+    height: 15rem;
+}
+
+.facebook:hover{
+    width: 15.5rem;
+    height: 15.5rem;
+}
+
+/* -----------------------SECCION DE NUESTRA POLITICA---------------------------------- */
+.nuestraPolitica{
+    color: var(--background-azul1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1 2rem;
+    transition: .2s;
+}
+
+.nuestraPolitica:hover{
+    color:var(--color-azulCielo);
+}
+
+.ourPolitica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.ourPolitic{
+    margin: 8rem 2rem 2rem 2rem;
+    text-align: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ourPolitic:hover{
+    color:var(--background-azul1);
+}
+
+.ourPoliti{
+    margin: 0rem 2rem 2rem 5rem;
+    width: 30rem;
+}
+
+/* ----------------------------SECCION DE NUESTROS POLITICOS -------------------------- */
