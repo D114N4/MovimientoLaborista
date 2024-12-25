@@ -1,0 +1,116 @@
+/*-------------------------------SECCION DE PARA SABER MAS---------------------------------------------*/
+/*Tarjetas*/
+/* .titulo2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+    font-size: 3.5rem;
+    margin: 1rem;
+    line-height: 3.5rem;
+    padding: 1rem 1rem;
+    text-shadow:
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black;
+
+} */
+
+/* .titulo2:hover {
+    color: var(--secundary-color);
+    transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+} */
+
+
+/* aside {
+    display: grid;
+    grid-template-columns: 0rem auto;
+    grid-template-rows: auto;
+    line-height: 1.5rem;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: justify;
+    color: #000000;
+} */
+
+/* div {
+    background-color: var(--primary-color);
+    padding: 3rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 5rem 0 0 5rem;
+} */
+
+/* 
+//Es un div contenedor de las tarjetas
+    .razas {
+    background-color: #ce007879;
+    display: flex;
+    align-items: start;
+    align-content: start;
+} */
+
+/* .razas-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50rem;
+
+} */
+
+/* .razas-imagen {
+    background-color: aqua;
+    width: 21.875rem;
+    height: 15.625rem;
+    border-radius: .625rem;
+} */
+
+
+.razasGatos {
+    background-color: aqua;
+    display: flex;
+    align-content: baseline;
+    justify-content: space-around;
+    margin: 0.3125rem;
+    padding: .125rem;
+    border-radius: 0rem 5rem 5rem 0rem;
+}
+
+/* inserta las columnas requeridas */
+.raza-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    gap: .9375rem;
+    border-radius: 0rem 5rem 5rem 0;
+}
+
+.gatos-item img {
+    border-radius: 8rem;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gatos-item img:hover {
+    width: 10.1rem;
+    height: 10.1rem;
+}
+
+.nombre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    border-radius: 0 0 1.875rem 1.875rem;
+}
+
+.nombre:hover {
+    background-color: rgb(250, 144, 214);
+    color: black;
+}
