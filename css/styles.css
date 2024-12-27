@@ -305,11 +305,20 @@ a {
 
 /* ----------------------------SECCION DE NUESTROS POLITICOS -------------------------- */
 
+.politicos{
+    margin: 0rem 8rem;
+}
+
+.encuentranos{
+    margin:0rem 1rem;
+}
+
 .persona{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
-    margin: 0rem 5rem;
+    margin: 0rem 7rem;
+    text-align: center;
 }
 
 .persona:hover{
@@ -317,8 +326,8 @@ a {
 }
 
 .fotoPersonaje{
-    width:10rem;
-    height: 10rem;
+    width:15rem;
+    height: 15rem;
     border-radius: 15rem;
     margin: 1rem 5rem;
 }
@@ -327,10 +336,11 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
-    margin: 0rem 6rem;
+    margin: 0rem 1rem 1rem 9rem;
     padding:.1rem 1rem;
     border-radius: 4rem;
     border-color: var(--background-azul1);
+    align-items: center;
 }
 
 .saberMas:hover{
@@ -342,3 +352,6 @@ a {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+
+/* ----------------------------------FOOTER----------------------------------------------- */
