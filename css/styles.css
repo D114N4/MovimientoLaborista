@@ -18,7 +18,7 @@
 
 /* NAVBAR */
 .nav {
-    font-weight: 400;
+    font-weight: 00;
     width: 100%;
     display: flex;
     align-items: center;
@@ -99,7 +99,8 @@ a {
 
 /* -------------------INICIA LA IMAGEN DEL FONDO------------------------- */
 .imagen1Fondo {
-    width: 100%;
+    max-width: 100%;
+    width:100rem;
     background-size: cover;
     background-position: center;
     margin: 5.5rem 0rem;
@@ -136,6 +137,7 @@ a {
 /* -----------------INICIA SECCION DE PREGUNTAS ---------------------------------------------------------*/
 
 .preguntaExploracion {
+    max-width: 100%;
     display: grid;
     align-items: center;
     text-align: center;
@@ -150,6 +152,7 @@ a {
 }
 
 .espaciopregunta {
+    max-width: 100%;
     margin: .5rem 21rem;
     align-items: center;
     text-align: center;
@@ -164,6 +167,7 @@ a {
 
 /*-----------------------------------------------INICIA SECCION DE BOLETINES--------------------------------- */
 .boletines {
+    max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 3rem 2rem 1rem 2rem; 
     text-align: start;   
@@ -171,6 +175,7 @@ a {
 }
 
 .imageBoletin {
+    max-width: 100%;
     display: grid;
     margin: 0rem .5rem;
     gap: .2rem;
@@ -179,10 +184,12 @@ a {
 }
 
 .imageBoletin:hover{
+    max-width: 100%;
     width: 25.2rem;
 }
 
 .boletin {
+    max-width:100%;
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows: auto;
@@ -191,11 +198,13 @@ a {
 }
 
 .boletines-item {
+    max-width: 100%;
     text-align: center;
     padding: .5rem;    
 }
 
 .nombre {
+    max-width: 100%;
     text-align: justify;
     margin: .5rem;
     padding: .5rem 1.5rem 1.5rem 0rem;
@@ -208,6 +217,7 @@ a {
 
 /* boton de mas recientes */
 .botonMas {
+    max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     padding: 0.2rem;
@@ -228,6 +238,7 @@ a {
 /* -------------------SECCION DE MAPA---------------- */
 
 .encuentranos{
+    max-width: 100%;
     color: var(--background-azul1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -241,6 +252,7 @@ a {
 } 
 
 .google-maps{
+    max-width: 100%;
     text-align: center;
     padding: 2rem;
     background-color:#047cfd13;
@@ -249,6 +261,7 @@ a {
 /*----------------------REDES SOCIALES SECCION--------------------*/
 
 .redesSociales{
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -256,6 +269,7 @@ a {
     margin: 1.4rem 2rem 1.4rem 8rem;
 }
 .facebook{
+    max-width: 100%;
     width:15rem;
     height: 15rem;
 }
@@ -267,6 +281,7 @@ a {
 
 /* -----------------------SECCION DE NUESTRA POLITICA---------------------------------- */
 .nuestraPolitica{
+    max-width: 100%;
     color: var(--background-azul1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -280,12 +295,14 @@ a {
 }
 
 .ourPolitica{
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
 }
 
 .ourPolitic{
+    max-width: 100%;
     margin: 8rem 2rem 2rem 2rem;
     text-align: center;
     align-items: center;
@@ -299,21 +316,41 @@ a {
 }
 
 .ourPoliti{
+    max-width: 100%;
     margin: 0rem 2rem 2rem 5rem;
     width: 30rem;
+}
+
+.politicaSaber{
+    max-width: 100%;
+    margin:2rem ;
+    padding: 0.1rem .5rem;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--background-azul1);
+    border-color: var(--background-azul1);
+}
+
+.politicaSaber:hover{
+    border-color: var(--color-azulCielo);
+    background-color: var(--background-azul2);
+    color: white;
 }
 
 /* ----------------------------SECCION DE NUESTROS POLITICOS -------------------------- */
 
 .politicos{
+    max-width: 100%;
     margin: 0rem 8rem;
 }
 
 .encuentranos{
+    max-width: 100%;
     margin:0rem 1rem;
 }
 
 .persona{
+    max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
@@ -326,6 +363,7 @@ a {
 }
 
 .fotoPersonaje{
+    max-width: 100%;
     width:15rem;
     height: 15rem;
     border-radius: 15rem;
@@ -333,6 +371,7 @@ a {
 }
 
 .saberMas{
+    max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--background-azul1);
@@ -349,9 +388,59 @@ a {
 }
 
 .politicos{
+    max-width: 100%;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 
 /* ----------------------------------FOOTER----------------------------------------------- */
+footer{
+    max-width: 100%;
+    background-color: var(--background-azul1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 3rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.imagefooter{
+    width: 8rem;
+    background-color: var(--background-azul2);
+    border-radius: 5rem;
+}
+
+.sub{
+    font-size: 1rem;
+}
+
+.sub:hover{
+    color:var(--background-azul2);
+    text-decoration: overline;
+}
+
+.name{
+    background-color: var(--background-azul2);
+    text-align: center;
+    padding: .5rem  1rem;
+    max-width: 100%;
+    font-size: 1rem;
+    color: var(--color-azulCielo);
+}
+
+.socialRed{
+    width: 2rem;
+}
